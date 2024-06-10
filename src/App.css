@@ -1,0 +1,157 @@
+.banner_container .rightside-bg-text .bgimg{
+    background-image: url('./assets/images/hero_bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    overflow-x: hidden!important;
+    align-items: center;
+    height: 400px; 
+    
+}
+.banner_container .rightside-bg-text .bgimg .text-overlay{
+    max-width: 500px;
+}
+.design-face-container .design-img img{
+    max-width: 60%; 
+    height: auto;
+}
+.solutions-section-main .solution-before-img .sol-img img{
+    max-width: 35%; 
+    height: auto;
+}
+.card-body{
+    min-height: 200px!important;
+}
+.hero_section_container .our_solutions{
+    margin-top: 4rem!important;
+    margin-bottom: 8rem!important;
+}
+
+.hero_section_container .our_solutions .all_cards .card_icon img{
+    width: 27px;
+    height: 27px;
+    margin-right: 7px;
+
+}
+.hero_section_container .our_solutions .all_cards .card-text{
+    color: #969696!important;
+}
+
+.footer_main_tag{
+    width: 100%;
+    background-image: url('./assets/images/Footer.png');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}
+.overlay{
+    height: 100vh;
+}
+
+.footer_main_tag a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 1s ease-in-out;
+    -webkit-transition: color 1s ease-in-out; 
+    -moz-transition: color 1s ease-in-out;  
+    -o-transition: color 1s ease-in-out;  
+}
+
+.footer_main_tag a:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;  
+}
+.footer_main_tag{
+    width: 100%;
+    
+
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .banner_container .rightside-bg-text .bgimg{
+        height: auto;
+        background-position: right center;
+        padding: 20px 30px;
+    }
+    .design-face-container .design-img img{
+        max-width: 85%;
+    }
+    .our_solutions {
+        margin-top: 0rem !important; 
+        margin-bottom: 4rem !important; 
+    }
+    .card1, .card2, .card3, .card4{
+        min-height: 175px!important;
+    }
+}
+
+
+/* Chatbot */
+
+.chatbot_main_container {
+    background-image: url('./assets/images/bgImg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+  }
+  
+  .overlay {
+    height: 100vh;
+    overflow: auto;
+  }
+  
+  .chatbot_main_container .overlay .banner .banner-img {
+    /* border: 1px solid purple; */
+  }
+  .chatbot_main_container .overlay .chatarea .chats .userchat .userchat-img img,
+  .chatbot_main_container .overlay .chatarea .chats .botchat .botchat-img img{
+    width: 42px !important;
+    height: 42px !important;
+  }
+  .chatbot_main_container .overlay .chatarea .chats .userchat .userchat-bg{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 7px;
+    padding: 12px 23px;
+  }
+  .chatbot_main_container .overlay .chatarea .chats .botchat .botchat-bg{
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 12px 23px;
+  }
+  
+  .chatbot_main_container .overlay .chatarea .chats .userchat .userchat-bg .userchat-text,
+  .chatbot_main_container .overlay .chatarea .chats .botchat .botchat-bg .botchat-text{
+    text-wrap: wrap;
+  }
+  .chatbot_main_container .overlay .chatarea{
+    width: 100vw !important;
+  }
+  .chatbot_main_container .overlay .chatarea .chats{
+    width: 80%;
+  }
+  .submit-btn{
+    border-radius: 0px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  
+  }
+  
+  #inputtext{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 0px !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  .promptarea .prompt{
+    background: #DDDDDD;
+  }
