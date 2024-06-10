@@ -40,7 +40,7 @@ export default function Nav() {
           <NavLink to="" onClick={closeMobileMenu} isActive={location.pathname === ''}>FAQ</NavLink>
         </div>
         <div className="hidden lg:flex lg:flex-1 text-white lg:justify-end">
-          <Link to="/contact" className="md:bg-red-600 md:px-3 md:py-2 md:rounded-lg md:hover:bg-red-700" onClick={closeMobileMenu}>
+          <Link to="/" className="md:bg-red-600 md:px-3 md:py-2 md:rounded-lg md:hover:bg-red-700" onClick={closeMobileMenu}>
             Contact us
           </Link>
         </div>
@@ -73,7 +73,7 @@ export default function Nav() {
               </div>
               <div className="py-6">
                 <Link
-                  to="/contact"
+                  to="/"
                   className="-mx-3 block hover:bg-red-700 rounded-lg px-3 py-2.5 text-base font-semibold leading-7"
                   onClick={closeMobileMenu}
                 >
