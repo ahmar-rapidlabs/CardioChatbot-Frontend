@@ -14,7 +14,7 @@ export default function Chatbot() {
       const formData = new URLSearchParams();
       formData.append('query', inputText);
 
-      const response = await axios.post('http://127.0.0.1:8000/api/', formData.toString(), {
+      const response = await axios.post('http://3.134.35.69/api/', formData.toString(), {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
